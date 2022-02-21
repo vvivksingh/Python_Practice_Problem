@@ -1,9 +1,9 @@
-def swap_numbers(a, b):
-    temp = a
-    a = b
-    b = temp
+def swap_numbers(number1, number2):
+    temp = number1
+    number1 = number2
+    number2 = temp
 
-    print("After swaping: num1 = {0} and num2 = {1}".format(a, b))
+    print("After swaping: num1 = {0} and num2 = {1}".format(number1, number2))
 
 
 num1 = int(input(" Please Enter the First Value : "))

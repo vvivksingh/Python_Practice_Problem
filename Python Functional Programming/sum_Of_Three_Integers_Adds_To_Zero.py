@@ -1,4 +1,10 @@
 def findTriplets(arr, n):
+    """
+
+    :param arr: user defined array
+    :param n: length of that array
+    :return: the three elements of the array whose sum is zero.
+    """
     found = False
     for i in range(0, n - 2):
 

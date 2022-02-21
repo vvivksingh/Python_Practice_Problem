@@ -1,5 +1,9 @@
 import random
-
+"""
+--> asking user how many times he/she wants to flip the coin
+    based on that using random function to flip the coin 
+    and coin how many times head/tail is obtained and print its percentage
+"""
 results = {
     'heads': 0,
     'tails': 0,

@@ -1,5 +1,9 @@
+"""
+-->taking integer input from the user and checking provided number
+   is even or odd
+"""
 num = int(input("Enter a number: "))
 if (num % 2) == 0:
-   print(f"{num} is Even")
+    print(f"{num} is Even")
 else:
-   print(f"{num} is Odd")
+    print(f"{num} is Odd")

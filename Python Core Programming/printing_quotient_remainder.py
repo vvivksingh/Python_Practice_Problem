@@ -1,15 +1,21 @@
-n = int(input("Enter dividend :"))
-m = int(input("Enter divisor :"))
+dividend = int(input("Enter dividend :"))
+divisor = int(input("Enter divisor :"))
 
-def find(n, m):
+
+def find(dividend, divisor):
+    """
+
+    :param divisor: integer type
+    :type dividend: integer parameter
+    """
     # for quotient
-    q = n // m
+    q = dividend // divisor
     print("The quotient is:", q)
 
     # for remainder
-    r = n % m
+    r = dividend % divisor
     print("The remainder is:", r)
 
 
 # Driver Code
-find(n, m)
+find(dividend, divisor)
