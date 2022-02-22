@@ -16,4 +16,5 @@ def array2D():
     print(arr)
 
 
-array2D()
+if __name__ == '__main__':
+    array2D()

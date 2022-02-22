@@ -22,4 +22,5 @@ def findTriplets(arr, n):
 
 arr = [0, -1, 2, -3, 1]
 n = len(arr)
-findTriplets(arr, n)
+if __name__ == '__main__':
+    findTriplets(arr, n)

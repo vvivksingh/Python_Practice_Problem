@@ -17,5 +17,6 @@ def find(dividend, divisor):
     print("The remainder is:", r)
 
 
-# Driver Code
-find(dividend, divisor)
+if __name__ == '__main__':
+    # Driver Code
+    find(dividend, divisor)

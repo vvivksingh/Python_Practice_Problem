@@ -15,4 +15,7 @@ def calculateTemp_speed(v, t):
 
 v = float(input("Input wind speed in km/hour: "))
 t = float(input("Input air temperature in degrees Celsius: "))
-calculateTemp_speed(v, t)
+
+
+if __name__ == '__main__':
+    calculateTemp_speed(v, t)
